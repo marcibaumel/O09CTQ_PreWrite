@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<collection>
+<libary>
+
+  <book>
+    <title>Philosopher's Stone</title>
+    <author>J. K. Rowling</author>
+    <quantity>2</quantity>
+  </book>
+
+  <book>
+    <title>Chamber of Secrets</title>
+    <author>J. K. Rowling</author>
+    <quantity>3</quantity>
+  </book>
+
+  <book>
+    <title>The Two Towers</title>
+    <author>J. R. R. Tolkien</author>
+    <quantity>1</quantity>
+  </book>
+  
+  <book>
+    <title>The Fellowship of the Ring</title>
+    <author>J. R. R. Tolkien</author>
+    <quantity>2</quantity>
+  </book>
+  
+  <book>
+    <title>1984</title>
+    <author>George Orwell</author>
+    <quantity>0</quantity>
+  </book>
+  
+<book>
+    <title>The Hunger Games</title>
+    <author>Suzanne Collins</author>
+  <quantity>1</quantity>
+  </book>
+
+</libary>
+</collection>
