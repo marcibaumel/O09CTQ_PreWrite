@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Implementation\Book.cs" />
+    <Compile Include="Implementation\Comparer.cs" />
+    <Compile Include="Implementation\FileManager.cs" />
     <Compile Include="Implementation\Libary.cs" />
     <Compile Include="Implementation\Serializer.cs" />
     <Compile Include="Program.cs" />
