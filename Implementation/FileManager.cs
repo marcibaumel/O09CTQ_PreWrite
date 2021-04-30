@@ -99,9 +99,6 @@ namespace O09CTQ_PreWrite.Implementation
         {
             string testFile = @"Data/" + Title + ".txt";
             Console.WriteLine(File.Exists(testFile) ? "File exists." : "File does not exist.");
-        }
-
-        
-        
+        }            
     }
 }
