@@ -90,15 +90,26 @@ namespace O09CTQ_PreWrite.Implementation
 
             catch (Exception Ex)
             {
-                Console.WriteLine(Ex.ToString());
+                Console.WriteLine("\nNew book has been detected! \n");
             }
             return false;
         }
 
-        public void ExistingItem(string Title)
+        public bool ExistingItem(string Title)
         {
             string testFile = @"Data/" + Title + ".txt";
-            Console.WriteLine(File.Exists(testFile) ? "File exists." : "File does not exist.");
+            if (File.Exists(testFile))
+            {
+                return true;
+            }
+            else { return false; }
         }            
+
+        public void FileNameChanger(string oldTitle, string newTitle)
+        {
+            string oldFile = @"Data/" + oldTitle + ".txt";
+            string newFile = @"Data/" + newTitle + ".txt";
+            File.Move(oldFile, newFile);
+        }
     }
 }

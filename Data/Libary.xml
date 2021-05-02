@@ -23,7 +23,7 @@
   <book>
     <title>The Fellowship of the Ring</title>
     <author>J. R. R. Tolkien</author>
-    <quantity>1</quantity>
+    <quantity>10</quantity>
   </book>
   
   <book>
@@ -31,6 +31,13 @@
     <author>George Orwell</author>
     <quantity>5</quantity>
   </book>
+  
+   <book>
+    <title>1985</title>
+    <author>George Orwell</author>
+    <quantity>10</quantity>
+  </book>
+  
   
 <book>
     <title>The Hunger Games</title>
