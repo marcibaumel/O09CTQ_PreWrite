@@ -13,8 +13,7 @@ namespace O09CTQ_PreWrite.UTest
     {
         private FileManager myFileManager = new FileManager();
 
-        [TestCase ("Wrong")]
-        [TestCase ("The Hungerer Games")]
+        [TestCase ("WrongData")]
         public void ExistingTest_GiveATitleAndLookUpIfItExisting_ReturnFalse(string a)
         {
             myFileManager = new FileManager(a);
