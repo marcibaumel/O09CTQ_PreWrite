@@ -26,9 +26,6 @@ namespace O09CTQ_PreWrite.UTest
             testBook2.Quantity = d;
 
             Assert.IsTrue((testBook1 + testBook2).Quantity.Equals(c));
-
         }
-
-
     }
 }
